@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos DOM</title>
+    <style>
+        #area {
+            font: 1.5em Arial;
+            background-color: rgb(2, 71, 2);
+            color: white;
+            width: 200px;
+            height: 200px;
+            text-align: center;
+            line-height: 200px;
+            border-radius: 10px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.37);
+        }
+
+        #area:hover {
+            transform: translate(-100px, -115px);
+            transition: transform 0.2s;
+            box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.37);
+        }
+
+    </style>
+</head>
+<body>
+    <div id="area">
+        Clique.
+    </div>
+    <script>
+        var a = document.getElementById('area')
+        a.addEventListener('click', clicar)
+        a.addEventListener('mouseenter', entrar)
+        a.addEventListener('mouseout', sair)
+
+        function clicar() {
+            a.innerText = 'Clicou!'
+            a.style.background = 'red'
+        }
+
+        function entrar() {
+            a.innerText = 'Vai, me clica!'
+            a.style.background = 'rgb(4, 100, 4)'
+        }
+
+        function sair() {
+            a.innerText = 'Ei, volta aqui!'
+            a.style.background = 'rgb(2, 71, 2)'
+        }
+    </script>
+</body>
+</html>
