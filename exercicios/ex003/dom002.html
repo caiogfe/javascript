@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprendendo querySelector</title>
+    <style>
+        body {
+            background-color: rgb(5, 70, 5);
+            color: white;
+            font: normal 1.3em Arial;
+        }
+    </style>
+</head>
+<body>
+    <h1>Estou aprendendo coisas novas!</h1>
+    <p>Aqui vai o resultado</p>
+    <p>Estou aprendendo mais sobre <strong>DOM</strong>!</p>
+    <div id="msg">Clique em mim</div>
+    <script>
+        var d = document.querySelector('div#msg')
+        d.style.background = 'purple'
+    </script>
+</body>
+</html>
