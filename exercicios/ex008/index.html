@@ -25,7 +25,7 @@
             var nac = document.querySelector('input#inac').value
             var res = document.querySelector('div#ires')
             res.innerHTML = `<p>O país que você nasceu é <strong>${nac}</strong>.</p>`
-            if (nac != 'Brasil') {
+            if (nac.toLowerCase() != 'brasil') {
                 res.innerHTML += `<p>Isso significa que você é <strong>ESTRANGEIRO</strong>.</p>`
             } else {
                 res.innerHTML += `<p>Isso significa que você é <strong>BRASILEIRO</strong>.</p>`
