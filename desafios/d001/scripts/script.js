@@ -11,10 +11,10 @@ function carregar() {
     } else if (hora >= 12 && hora < 19) {
         img.src = "imagens/tarde.png"
         document.body.style.background = '#f0845d'
-        document.getElementById('rodape').style.backgroundColor = ('#703b28')
+        document.getElementById('rodape').style.backgroundColor = '#703b28'
     } else {
         img.src = "imagens/noite.png"
         document.body.style.background = '#03173d'
-        document.getElementById('rodape').style.backgroundColor = ('#010a1b')
+        document.getElementById('rodape').style.backgroundColor = '#010a1b'
     }
 }
