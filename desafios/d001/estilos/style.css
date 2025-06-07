@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+header h1 {
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 2.5em;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.459);
+}
+
+section {
+    max-width: 600px;
+    width: 90vw;
+    height: 600px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+    margin: auto;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#msg {
+    text-align: center;
+    padding: 40px;
+}
+
+#foto {
+    text-align: center;
+    padding-top: 100px;
+}
+
+footer {
+    background-color: rgb(112, 112, 112);
+    text-align: center;
+    padding: 10px;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 0.8em
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
