@@ -2,6 +2,8 @@
 
 * {
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 html, body {
@@ -17,7 +19,7 @@ header h1 {
 
 section {
     max-width: 90vw;
-    width: 600px;
+    width: 400px;
     margin: 20px auto;
     background-color: white;
     border-radius: 20px;
@@ -30,8 +32,16 @@ section {
     padding-bottom: 10px;
 }
 
+#info p {
+    padding: 10px;
+}
+
 #res p {
     text-align: center;
+}
+
+img#foto {
+    padding-top: 20px;
 }
 
 footer {
