@@ -22,10 +22,6 @@ section {
     border-radius: 20px;
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
     margin: auto;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
 }
 
 #msg {
