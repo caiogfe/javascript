@@ -8,6 +8,7 @@
 
 html, body {
     background-color: rgb(0, 100, 231);
+    height: 100%;
 }
 
 header > h1 {
@@ -20,7 +21,6 @@ header > h1 {
 main {
     max-width: 90vw;
     width: 500px;
-    height: 270px;
     border-radius: 20px;
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.404);
     background-color: rgb(238, 238, 238);
@@ -44,21 +44,19 @@ section {
 #res {
     padding-top: 40px;
     padding-right: 20px;
+    padding-bottom: 20px;
     text-align: justify;
 }
 
 footer {
-    position: fixed;
-    bottom: 0px;
-    width: 100%;
+    padding: 40px;
 }
 
 footer > p {
     font-size: 0.8em;
     color: white;
-    background-color: rgb(0, 50, 116);
     text-align: center;
-    padding: 10px;
+    font-style: italic;
 }
 
 footer > p > a {
