@@ -17,15 +17,34 @@ header > h1 {
     font-size: 3em;
 }
 
-section {
+main {
     max-width: 90vw;
-    width: 700px;
-    height: 500px;
+    width: 500px;
+    height: 270px;
     border-radius: 20px;
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.404);
-    background-color: rgb(219, 219, 219);
+    background-color: rgb(238, 238, 238);
     margin: auto;
     margin-top: 50px;
+}
+
+section {
+    padding-top: 5px;
+    padding-left: 20px;
+}
+
+#dados > p {
+    margin-top: 15px;
+}
+
+#dados > input {
+    margin-top: 20px;
+}
+
+#res {
+    padding-top: 40px;
+    padding-right: 20px;
+    text-align: justify;
 }
 
 footer {
